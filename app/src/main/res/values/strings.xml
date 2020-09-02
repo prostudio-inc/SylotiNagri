@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Syloti Nagri</string>
+    <string name="todo">TODO</string>
+    <string name="syloti_nagri">syloti nagri</string>
+    <string name="the_regional_language_of_sylhet">The regional language of Sylhet</string>
+    <string name="lesson_1">LESSON 1</string>
+    <string name="lesson_2">LESSON 2</string>
+    <string name="lesson_3">LESSON 3</string>
+    <string name="lesson_4">LESSON 4</string>
+    <string name="lesson_5">LESSON 5</string>
+    <string name="lesson_6">LESSON 6</string>
+    <string name="question">QUESTION!</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="start">start</string>
+    <string name="go">Go To</string>
+    <string name="ok">OK</string>
+    <string name="dialog_text">Just listen to this and learn it. Repeat as many times as you need to.</string>
+    <string name="dialog_text_q">Listen to the voice and choose a correct answer.</string>
+    <string name="ctaxt">You completed lesson 1. Go to Lesson 2</string>
+
+
+</resources>

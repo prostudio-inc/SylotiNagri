@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".L1C"
+    android:padding="16dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageButton
+        android:id="@+id/home"
+        android:background="@drawable/button_background"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_home"/>
+
+    <ImageButton
+        android:id="@+id/repeat"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_background"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_retry"/>
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/image_background"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/l1d"
+        android:contentDescription="@string/todo"/>
+
+    <ImageButton
+        android:id="@+id/back"
+        android:background="@drawable/button_background"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_arrow_back"/>
+
+    <ImageButton
+        android:id="@+id/forward"
+        android:background="@drawable/button_background"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_arrow_forward"/>
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+rootProject.name='Syloti Nagri'
+include ':app'
